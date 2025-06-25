@@ -1,0 +1,128 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0a0a0a;
+    color: #fff;
+}
+
+#menu {
+    background-color: rgba(0, 255, 191, 0.15);
+    padding: 15px;
+    display: flex;
+    padding-left: 50px;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: 2px solid aquamarine;
+    backdrop-filter: blur(5px);
+}
+
+#menu a {
+    color: #ffffff;
+    background-color:#333;
+    text-decoration: none;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+#menu a:hover {
+    color: darkblue;
+    background-color:#333;
+    border: 2px solid darkblue;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    transition: transform 0.3s ease, border-color 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    border-color: aquamarine;
+}
+
+#about, #contact {
+    background-color: aliceblue;
+    color: #333;
+    border-style: groove;
+    padding: 20px 40px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#about h1, #contact h1 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+#contact {
+    text-align: center;
+}
+
+#picture {
+    background-image: url("images/avengers-workout.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    padding: 20px;
+}
+
+
+#home {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0,255,191,0.2);
+}
+
+#home a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#home a:hover {
+    background-color: #7fffd4;
+}
+
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
